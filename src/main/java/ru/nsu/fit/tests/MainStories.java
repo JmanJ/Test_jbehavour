@@ -45,7 +45,8 @@ public class MainStories extends JUnitStories {
 
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), new MainSteps(), new HousewifeSteps());
+        return new InstanceStepsFactory(configuration(), new MainSteps(), new HousewifeSteps(), new SchoolboySteps(),
+                new ScientistSteps());
     }
 
     @Override

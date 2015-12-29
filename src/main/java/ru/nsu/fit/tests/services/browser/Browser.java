@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.nsu.fit.tests.shared.ImageUtils;
@@ -18,26 +19,9 @@ import java.util.concurrent.TimeUnit;
 public class Browser implements Closeable {
     private WebDriver webDriver;
     private ChromeDriverService service;
+    private By inputElement;
     private int MAX_ATTEMPTS = 10;
     private int SLEEP_TIME = 5;
-
-    public final By inputElement = By.xpath("//input[@type='text' and @name='Input']");
-    public final By equalElement = By.xpath("//input[@type='button' and @name='DoIt']");
-    public final By zeroElement = By.xpath("//input[@type='button' and @name='zero']");
-    public final By oneElement = By.xpath("//input[@type='button' and @name='one']");
-    public final By twoElement = By.xpath("//input[@type='button' and @name='two']");
-    public final By threeElement = By.xpath("//input[@type='button' and @name='three']");
-    public final By fourElement = By.xpath("//input[@type='button' and @name='four']");
-    public final By fiveElement = By.xpath("//input[@type='button' and @name='five']");
-    public final By sixElement = By.xpath("//input[@type='button' and @name='six']");
-    public final By sevenElement = By.xpath("//input[@type='button' and @name='seven']");
-    public final By eightElement = By.xpath("//input[@type='button' and @name='eight']");
-    public final By nineElement = By.xpath("//input[@type='button' and @name='nine']");
-    public final By clearElement = By.xpath("//input[@type='button' and @name='clear']");
-    public final By plusElement = By.xpath("//input[@type='button' and @name='plus']");
-    public final By minusElement = By.xpath("//input[@type='button' and @name='minus']");
-    public final By divElement = By.xpath("//input[@type='button' and @name='div']");
-    public final By timesElement = By.xpath("//input[@type='button' and @name='times']");
 
     public Browser() {
         // create profile
@@ -45,14 +29,17 @@ public class Browser implements Closeable {
 
         // create web driver
 
-        System.setProperty("webdriver.chrome.driver", "D:\\JavaProjects\\MetTest");
+        System.setProperty("webdriver.chrome.driver", "C:\\verman");
+
         try {
             service = new ChromeDriverService.Builder()
-                    .usingDriverExecutable(new File("D:\\JavaProjects\\MetTest\\chromedriver.exe"))
+                    .usingDriverExecutable(new File("C:\\verman\\chromedriver.exe"))
                     .usingAnyFreePort()
                     .build();
+            //ChromeOptions chromeOptions = new ChromeOptions();
+            //chromeOptions.addArguments("port=9999");
             webDriver = new ChromeDriver(service);
-
+            webDriver.navigate().refresh();
             webDriver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
             webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         } catch (Exception ex) {
@@ -61,6 +48,7 @@ public class Browser implements Closeable {
     }
 
     public Browser openPage(String url) {
+
         webDriver.get(url);
         return this;
     }
@@ -75,14 +63,9 @@ public class Browser implements Closeable {
         return this;
     }
 
-    public Browser click(By element) {
-        WebElement e  = delayedFindElement(element, 5);  //webDriver.findElement(element);
-        e.click();
-        return this;
-    }
-
     private WebElement delayedFindElement(By by, int attempt) {
         try {
+            webDriver.navigate().refresh();
             return webDriver.findElement(by);
         } catch (NoSuchElementException e) {
             if (attempt >= MAX_ATTEMPTS) {
@@ -97,18 +80,22 @@ public class Browser implements Closeable {
         }
     }
 
-    public Browser typeText(String text) {
-        webDriver.findElement(inputElement).sendKeys(text);
+    public Browser click(By element) {
+        webDriver.findElement(element).click();
+        return this;
+    }
+
+    public Browser typeText(By element, String text) {
+        webDriver.findElement(element).sendKeys(text);
         return this;
     }
 
     public WebElement getElement(By element) {
-
         return webDriver.findElement(element);
     }
 
-    public String getValue() {
-        return getElement(inputElement).getAttribute("value");
+    public String getValue(By element) {
+        return getElement(element).getAttribute("value");
     }
 
     public List<WebElement> getElements(By element) {
@@ -125,6 +112,22 @@ public class Browser implements Closeable {
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         }
+    }
+
+    public void setInputElement(By inputElement){
+        this.inputElement = inputElement;
+    }
+
+    public void klick_imitation(By elemnt){
+        click(elemnt);
+    }
+
+    public String get_value(){
+        return getValue(inputElement);
+    }
+
+    public void insert_value(String value){
+        typeText(inputElement, value);
     }
 
     @Override

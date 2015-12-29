@@ -6,6 +6,7 @@ import org.jbehave.core.steps.Steps;
 import org.testng.Assert;
 import ru.nsu.fit.tests.services.browser.Browser;
 import ru.nsu.fit.tests.services.browser.BrowserService;
+import ru.nsu.fit.tests.services.browser.MainPageService;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Severity;
 import ru.yandex.qatools.allure.model.SeverityLevel;
@@ -14,21 +15,20 @@ import java.util.ArrayList;
 
 public class HousewifeSteps extends Steps {
 
-    private Browser browser;
-    private ArrayList<Double> productSum = new ArrayList<Double>();
+    private ArrayList<Double> productSum = new ArrayList();
 
     @Given("as housewife")
     @Severity(SeverityLevel.BLOCKER)
     @Features("UI feature")
     public void openCalculator() {
-        browser.openPage("http://testmethods.tmweb.ru/");
+        press_reset();
     }
 
     @When("i buy $count items for $price ruble")
     @Severity(SeverityLevel.CRITICAL)
     @Features({"UI feature", "Addition", "Multiplication"})
     public void sumOfProducts(String count, String price) {
-        browser.typeText(count + "*" + price);
+        MainPageService.browser.insert_value(count + "*" + price);
         productSum.add(Integer.parseInt(count) * Double.parseDouble(price));
     }
 
@@ -37,38 +37,39 @@ public class HousewifeSteps extends Steps {
     @Features({"UI feature", "Addition", "Multiplication"})
     public void checkSum() {
         for (double psum: productSum ){
-            browser.typeText(String.valueOf(psum) + "+");
+            MainPageService.browser.insert_value(String.valueOf(psum) + "+");
         }
+        MainPageService.browser.insert_value("0");
     }
 
     @When("i press result_button")
     @Severity(SeverityLevel.BLOCKER)
     @Features({"UI feature"})
     public void press_result() {
-        browser.click(browser.equalElement);
+        MainPageService.browser.click(MainPageService.equalElement);
     }
 
     @When("i click reset")
     @Severity(SeverityLevel.BLOCKER)
     @Features({"UI feature"})
     public void press_reset() {
-        browser.click(browser.clearElement);
+        MainPageService.browser.click(MainPageService.clearElement);
     }
 
     @Then("i get in result $result")
     @Severity(SeverityLevel.BLOCKER)
     @Features("UI feature")
     public void checkResult(int result) {
-        Assert.assertEquals(Integer.parseInt(browser.getValue()), result);
+        Assert.assertEquals(Integer.parseInt(MainPageService.browser.get_value()), result);
     }
 
     @BeforeScenario
     public void beforeScenario() {
-        browser = BrowserService.openNewBrowser();
+        MainPageService.start_test();
     }
 
     @AfterScenario
     public void afterScenario() {
-        browser.close();
+        MainPageService.close_browser();
     }
 }
