@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1451440504817" stop="1451440538817" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>scientist.story</name>
+    <title>scientist.story</title>
+    <test-cases>
+        <test-case start="1451440504817" stop="1451440522295" status="passed">
+            <name>Ученый использует выражение в котором числа превышают вместимость поля для ввода.</name>
+            <steps>
+                <step start="1451440519615" stop="1451440519679" status="passed">
+                    <name>Given as scientist</name>
+                    <title>Given as scientist</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440519679" stop="1451440520478" status="passed">
+                    <name>When i calc expression 100000000000*100000000000 using UI keys</name>
+                    <title>When i calc expression 100000000000*100000000000 using UI keys</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440520479" stop="1451440520529" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440520530" stop="1451440520913" status="passed">
+                    <name>When i div from the result 1000000000000</name>
+                    <title>When i div from the result 1000000000000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440520914" stop="1451440520955" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440520956" stop="1451440520984" status="passed">
+                    <name>Then i get in result 10000000000</name>
+                    <title>Then i get in result 10000000000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1451440522297" stop="1451440538815" status="passed">
+            <name>Ученый производит вычисления с бесконечностью.</name>
+            <steps>
+                <step start="1451440537257" stop="1451440537318" status="passed">
+                    <name>Given as scientist</name>
+                    <title>Given as scientist</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440537318" stop="1451440537401" status="passed">
+                    <name>When i calc not standard expression Infinity * - Infinity</name>
+                    <title>When i calc not standard expression Infinity * - Infinity</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440537401" stop="1451440537472" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440537472" stop="1451440537504" status="passed">
+                    <name>Then i get not standard in result -Infinity</name>
+                    <title>Then i get not standard in result -Infinity</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JBehave"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -45,10 +45,9 @@ public class MainStories extends JUnitStories {
 //9
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), new MainSteps(), new HousewifeSteps(), new SchoolboySteps(),
-                new ScientistSteps());
+        return new InstanceStepsFactory(configuration(), new MainSteps());
     }
-
+//, new HousewifeSteps(), new SchoolboySteps(), new ScientistSteps()
     @Override
     protected List<String> storyPaths() {
         return new StoryFinder().findPaths(codeLocationFromClass(this.getClass()), "**/*.story", "");

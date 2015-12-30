@@ -29,11 +29,11 @@ public class Browser implements Closeable {
 
         // create web driver
 
-        System.setProperty("webdriver.chrome.driver", "C:\\verman");
+        System.setProperty("webdriver.chrome.driver", "D:\\JavaProjects\\jbehave");
 
         try {
             service = new ChromeDriverService.Builder()
-                    .usingDriverExecutable(new File("C:\\verman\\chromedriver.exe"))
+                    .usingDriverExecutable(new File("D:\\JavaProjects\\jbehave\\chromedriver.exe"))
                     .usingAnyFreePort()
                     .build();
             //ChromeOptions chromeOptions = new ChromeOptions();

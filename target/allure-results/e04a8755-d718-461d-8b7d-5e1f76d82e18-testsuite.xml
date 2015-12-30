@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1451440454565" stop="1451440471118" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>housewife.story</name>
+    <title>housewife.story</title>
+    <test-cases>
+        <test-case start="1451440454565" stop="1451440471117" status="passed">
+            <name>Домохозяйка проводит подсчет потраченных средств по чеку.</name>
+            <steps>
+                <step start="1451440469231" stop="1451440469291" status="passed">
+                    <name>Given as housewife</name>
+                    <title>Given as housewife</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469291" stop="1451440469359" status="passed">
+                    <name>When i buy 6 items for 2 ruble</name>
+                    <title>When i buy 6 items for 2 ruble</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469359" stop="1451440469422" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469422" stop="1451440469452" status="passed">
+                    <name>Then i get in result 12</name>
+                    <title>Then i get in result 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469452" stop="1451440469503" status="passed">
+                    <name>When i click reset</name>
+                    <title>When i click reset</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469503" stop="1451440469556" status="passed">
+                    <name>When i buy 1 items for 10 ruble</name>
+                    <title>When i buy 1 items for 10 ruble</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469556" stop="1451440469606" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469606" stop="1451440469628" status="passed">
+                    <name>Then i get in result 10</name>
+                    <title>Then i get in result 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469628" stop="1451440469655" status="passed">
+                    <name>When i click reset</name>
+                    <title>When i click reset</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469655" stop="1451440469757" status="passed">
+                    <name>When i calculate check sum</name>
+                    <title>When i calculate check sum</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469757" stop="1451440469793" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451440469793" stop="1451440469808" status="passed">
+                    <name>Then i get in result 22</name>
+                    <title>Then i get in result 22</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JBehave"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
