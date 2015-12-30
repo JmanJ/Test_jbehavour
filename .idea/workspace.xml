@@ -2,10 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a304d461-640f-44f1-a6e6-9b3fb7501c25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/nsu/fit/tests/services/browser/Browser.class" afterPath="$PROJECT_DIR$/target/classes/ru/nsu/fit/tests/services/browser/Browser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/services/browser/Browser.java" afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/services/browser/Browser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java" afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\174aecb5-5bbd-4490-9217-cee8f42c6ce6-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\1d6d3dfe-df93-41de-bf87-f3c6b0441815-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\368b1aaf-d76b-46b1-b41e-bba8045f87ee-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\70450238-2968-4e9e-ab45-630412c099ee-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\75e9d018-d6ef-4b0d-a01f-048041b9387a-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\a6864ec4-0594-42cf-8454-fa36b5c709de-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\a9021316-cadd-4b8e-abe3-3f16283c263c-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\ac3042e2-f8f1-42b7-9d33-1b16459bc980-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\b27c8f4a-d941-4864-9422-8ac35ca2c3c2-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\e04a8755-d718-461d-8b7d-5e1f76d82e18-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\e9f09b78-537c-4535-95e4-2b8075d6833f-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\f61682ca-e3a4-4bc4-9048-2a6c00b64a65-testsuite.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/nsu/fit/tests/MainStories.class" afterPath="$PROJECT_DIR$/target/classes/ru/nsu/fit/tests/MainStories.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/jbehave-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.act.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.act.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.act.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.act.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.html" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.html" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.html" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="online-calculator-jbehave-tests.iws" />
@@ -28,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.35907337">
+              <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -48,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainStories.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainStories.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6017699">
+            <state vertical-scroll-proportion="0.0">
               <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="e#1900#1901#0" expanded="true" />
@@ -75,8 +108,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/services/browser/Browser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -111,38 +144,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Plugins" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Online Calculator JBeHave Tests" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="jbehave" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Online Calculator JBeHave Tests" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -197,20 +198,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jbehave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="online-calculator-jbehave-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jbehave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,7 +311,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
@@ -556,7 +543,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32357723" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32851985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47292417" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -593,17 +580,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6017699">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="e#1900#1901#0" expanded="true" />
@@ -612,5 +591,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35907337">
+          <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="compile generate-resources integration-test" />
+    <option value="clean:clean jbehave:run-stories-as-embeddables" />
   </component>
 </project>

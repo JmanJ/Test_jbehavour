@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1451442801085" stop="1451442809861" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>schoolboy.story</name>
+    <title>schoolboy.story</title>
+    <test-cases>
+        <test-case start="1451442801085" stop="1451442805858" status="pending">
+            <name>Школьник решает задачу в которой необходимо выполнить сложение и вычитание большого количества чисел
+с различным знаком.</name>
+            <failure>
+                <message>PENDING</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1451442805859" stop="1451442809853" status="pending">
+            <name>Школьник вычисляет выражение со скобками.</name>
+            <failure>
+                <message>PENDING</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JBehave"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

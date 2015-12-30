@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1451442796380" stop="1451442801069" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>housewife.story</name>
+    <title>housewife.story</title>
+    <test-cases>
+        <test-case start="1451442796380" stop="1451442801065" status="pending">
+            <name>Домохозяйка проводит подсчет потраченных средств по чеку.</name>
+            <failure>
+                <message>PENDING</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JBehave"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

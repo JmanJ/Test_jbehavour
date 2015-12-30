@@ -1,9 +1,9 @@
 #org.jbehave.core.embedder.StoryManager
-#Wed Dec 30 05:02:45 MSK 2015
-ru.nsu.tests.stories/scientist.story=33000
-ru.nsu.tests.stories/act.story=35000
+#Wed Dec 30 05:42:55 MSK 2015
+ru.nsu.tests.stories/scientist.story=8000
+ru.nsu.tests.stories/act.story=11000
 threads=1
-total=117000
-threadAverage=117000
-ru.nsu.tests.stories/schoolboy.story=34000
-ru.nsu.tests.stories/housewife.story=15000
+total=31000
+threadAverage=31000
+ru.nsu.tests.stories/schoolboy.story=8000
+ru.nsu.tests.stories/housewife.story=4000

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1451442785363" stop="1451442796342" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>act.story</name>
+    <title>act.story</title>
+    <test-cases>
+        <test-case start="1451442785366" stop="1451442791711" status="passed">
+            <name>Acceptance Scenario using UI keys</name>
+            <steps>
+                <step start="1451442788827" stop="1451442788904" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442788905" stop="1451442789216" status="passed">
+                    <name>When i type sum of 6 and 2 using UI keys</name>
+                    <title>When i type sum of 6 and 2 using UI keys</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789216" stop="1451442789323" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789323" stop="1451442789377" status="passed">
+                    <name>Then i get in result 8</name>
+                    <title>Then i get in result 8</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789377" stop="1451442789476" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789476" stop="1451442789633" status="passed">
+                    <name>When i type sub of 6 and 2 using UI keys</name>
+                    <title>When i type sub of 6 and 2 using UI keys</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789633" stop="1451442789819" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789819" stop="1451442789870" status="passed">
+                    <name>Then i get in result 4</name>
+                    <title>Then i get in result 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789870" stop="1451442789903" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442789904" stop="1451442790061" status="passed">
+                    <name>When i type mul of 6 and 2 using UI keys</name>
+                    <title>When i type mul of 6 and 2 using UI keys</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442790061" stop="1451442790097" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442790097" stop="1451442790125" status="passed">
+                    <name>Then i get in result 12</name>
+                    <title>Then i get in result 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442790125" stop="1451442790160" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442790160" stop="1451442790329" status="passed">
+                    <name>When i type div of 6 and 2 using UI keys</name>
+                    <title>When i type div of 6 and 2 using UI keys</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442790329" stop="1451442790362" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442790362" stop="1451442790381" status="passed">
+                    <name>Then i get in result 3</name>
+                    <title>Then i get in result 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1451442791719" stop="1451442796326" status="passed">
+            <name>Acceptance Scenario using keyboard</name>
+            <steps>
+                <step start="1451442794382" stop="1451442794445" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794445" stop="1451442794517" status="passed">
+                    <name>When i type sum of 6 and 2 using keyboard</name>
+                    <title>When i type sum of 6 and 2 using keyboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794517" stop="1451442794578" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794578" stop="1451442794609" status="passed">
+                    <name>Then i get in result 8</name>
+                    <title>Then i get in result 8</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794609" stop="1451442794661" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794661" stop="1451442794711" status="passed">
+                    <name>When i type sub of 6 and 2 using keyboard</name>
+                    <title>When i type sub of 6 and 2 using keyboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794711" stop="1451442794764" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794764" stop="1451442794788" status="passed">
+                    <name>Then i get in result 4</name>
+                    <title>Then i get in result 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794788" stop="1451442794816" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794816" stop="1451442794852" status="passed">
+                    <name>When i type mul of 6 and 2 using keyboard</name>
+                    <title>When i type mul of 6 and 2 using keyboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794852" stop="1451442794891" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794891" stop="1451442794907" status="passed">
+                    <name>Then i get in result 12</name>
+                    <title>Then i get in result 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794907" stop="1451442794936" status="passed">
+                    <name>Given Start page of Online Calculator in browser</name>
+                    <title>Given Start page of Online Calculator in browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794936" stop="1451442794971" status="passed">
+                    <name>When i type div of 6 and 2 using keyboard</name>
+                    <title>When i type div of 6 and 2 using keyboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794971" stop="1451442794998" status="passed">
+                    <name>When i press result_button</name>
+                    <title>When i press result_button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1451442794998" stop="1451442795016" status="passed">
+                    <name>Then i get in result 3</name>
+                    <title>Then i get in result 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JBehave"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

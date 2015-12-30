@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1451440419022" stop="1451440419032" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1451442785105" stop="1451442785119" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>BeforeStories</name>
     <title>BeforeStories</title>
     <labels>
