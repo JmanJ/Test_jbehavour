@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a304d461-640f-44f1-a6e6-9b3fb7501c25" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\174aecb5-5bbd-4490-9217-cee8f42c6ce6-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\1d6d3dfe-df93-41de-bf87-f3c6b0441815-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\368b1aaf-d76b-46b1-b41e-bba8045f87ee-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\70450238-2968-4e9e-ab45-630412c099ee-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\75e9d018-d6ef-4b0d-a01f-048041b9387a-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\a6864ec4-0594-42cf-8454-fa36b5c709de-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\a9021316-cadd-4b8e-abe3-3f16283c263c-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\ac3042e2-f8f1-42b7-9d33-1b16459bc980-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\b27c8f4a-d941-4864-9422-8ac35ca2c3c2-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\e04a8755-d718-461d-8b7d-5e1f76d82e18-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\e9f09b78-537c-4535-95e4-2b8075d6833f-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\JavaProjects\jbehave\target\allure-results\f61682ca-e3a4-4bc4-9048-2a6c00b64a65-testsuite.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/nsu/fit/tests/MainStories.class" afterPath="$PROJECT_DIR$/target/classes/ru/nsu/fit/tests/MainStories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/jbehave-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.act.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.act.stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.act.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.act.stats" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.html" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.housewife.stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.housewife.stats" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.html" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.schoolboy.stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.schoolboy.stats" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.html" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/ru.nsu.tests.stories.scientist.stats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.stats" afterPath="$PROJECT_DIR$/target/jbehave/ru.nsu.tests.stories.scientist.stats" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java" afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java" />
     </list>
     <ignored path="online-calculator-jbehave-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35907337">
-              <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -81,15 +44,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainStories.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainStories.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-              <folding>
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1981#1982#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.52509654">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,8 +68,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/services/browser/Browser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java" />
       </list>
     </option>
   </component>
@@ -533,7 +493,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -541,7 +501,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32357723" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21300814" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47292417" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -580,21 +540,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-          </folding>
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/nsu/fit/tests/MainStories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35907337">
-          <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.52509654">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
