@@ -42,7 +42,7 @@ public class MainStories extends JUnitStories {
                         .withFailureTrace(true)
                         .withFailureTraceCompression(true));
     }
-//5
+//6
     @Override
     public InjectableStepsFactory stepsFactory() {
         return new InstanceStepsFactory(configuration(), new MainSteps(), new HousewifeSteps(), new SchoolboySteps(),
